@@ -1,0 +1,50 @@
+.container {
+    padding: 0 50px 0 50px;
+    background-color: #e8e8e8;
+  }
+  
+  .column {
+    
+    float: left;
+    
+    height: 510px;
+  }
+  
+  .column.left {
+    width: 30%;
+    
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  .column.right {
+    width: 70%;
+  
+  }
+  
+  .container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .dropdown-list {
+    padding: 20px;
+  }
+  
+  .dd-btn {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #e2eded;
+    border-color: #eaf1f1 #e4eded #dbe7e7 #e4eded;
+  }
+  
+  .dd-btn:hover {
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 765px) {
+    .column.right, .column.left {
+      width: 100%;
+    }
+  }
