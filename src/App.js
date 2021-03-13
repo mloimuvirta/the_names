@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <div className="App">
       <div className="header">
-              <h1>THE NAME DATA</h1>
+              <h1>THE NAME DATA IN HERE</h1>
             
             </div>
             
